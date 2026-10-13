@@ -1,7 +1,7 @@
 # Lab 25 ? Circuit Breakers, Caching & Reliability
 
 **H? t?n / nh?m:** Nguy?n Minh Th?nh ? **MSV:** 2A202602556  
-**Commit:** s? c?p nh?t b?ng commit tri?n khai tr??c khi n?p  
+**Commit:** `cb113b9b4e802d08e89e39a3ae027de546572918` (commit tri?n khai ?? ki?m ch?ng; commit k? ti?p ch? ghi hash v? th?ng tin n?p v?o report)  
 **?i?m t? ??ng:** 84 / 88; ??t to?n b? 84 ?i?m ki?m tra c?ng khai. 4 ?i?m SLO ?n ch? gi?ng vi?n; report ch?m tay /12.
 
 K?t qu? d??i ??y d?ng seed 25. `reports/scoreboard.json` x?c nh?n m?i ki?m tra Game Day, workflow v? cache ??u pass tr?n seed 25, 26, 27. Kh?ng s?a simulator, test, k?ch b?n ho?c d?ch v? ???c cung c?p; kh?ng d?ng th?i gian th?c hay hard-code b?ng s? c? trong client/cache.
@@ -235,3 +235,5 @@ python scripts/grade.py --seeds 25,26,27
 
 82/82 test pass; 6/6 b?ng Game Day, C1 cache, workflow v? SLO public pass. [scoreboard.json](scoreboard.json) ghi 84/88, 4 ?i?m SLO ?n ch?a ch?m. Report, h?nh, CSV v? JSON l? artifact b?i n?p; kh?ng ch?y `make clean` sau khi chu?n b?.
 
+
+Repo public ??ng quy t?c t?n: https://github.com/thinhkp/Track3-Day25-2A202602556-Nguyen-Minh-Thinh ? nh?nh `main`.
